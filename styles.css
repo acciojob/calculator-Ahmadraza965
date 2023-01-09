@@ -1,2 +1,44 @@
 
 /* Your CSS Code here. */
+  .calculator {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 500px;
+        border: 1px solid #ccc;
+        margin: 0 auto;
+      }
+      .row {
+        display: flex;
+        width: 100%;
+      }
+      .block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        height: 75px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        user-select: none;
+        background: white;
+        border: 1px solid #ccc;
+      }
+      .block:hover {
+        background: #eee;
+      }
+      .block.dark {
+        background: #ddd;
+      }
+      .block.red {
+        background: #faa;
+      }
+      .input {
+        width: 100%;
+        height: 200px;
+        font-size: 30px;
+        text-align: right;
+        padding-right: 20px;
+        border: none;
+      }
